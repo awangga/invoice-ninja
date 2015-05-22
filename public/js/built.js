@@ -28900,8 +28900,8 @@ d[b]="undefined"!==f.getType(g)?g:f.visitModel(j,c,a);break;default:d[b]=c(j,a.p
         return contains(style.backgroundColor, 'rgba') || contains(style.backgroundColor, 'hsla');
     })(),
     inputTypeColorSupport = (function() {
-        var colorInput = $("<input type='color' value='!' />")[0];
-        return colorInput.type === "color" && colorInput.value !== "!";
+        var colorInput = $("<input type='color' value='#ffffff' />")[0];
+        return colorInput.type === "color" && colorInput.value !== "#ffffff";
     })(),
     replaceInput = [
         "<div class='sp-replacer'>",
